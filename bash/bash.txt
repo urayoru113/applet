@@ -1,0 +1,6 @@
+a=/usr/bin/python.py
+
+echo ${a#/*/} # bin/python.py
+echo ${a##/*/} # python.py
+echo ${a%/*.*} # /usr/bin
+echo ${a%%/*.*} #
